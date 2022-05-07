@@ -1,3 +1,3 @@
 #!/bin/bash
-curl  https://www.worldometers.info/coronavirus/ > day8.txt
+curl  https://www.worldometers.info/coronavirus/ > day1.txt
 
