@@ -9,6 +9,8 @@ date1=$(cat text2.txt | sed -n "6"p)
 
 /opt/lampp/bin/mysql -u root -e"\
 USE cw2;\
-INSERT INTO data (name,population,cases,death,recovered,date) VALUES ('$names1',$population1,$cases1,$death1,$recovered1,'$date1');" 
+INSERT INTO vietnam (name,population,cases,death,recovered,date) VALUES ('$names1',$population1,$cases1,$death1,$recovered1,'$date1');" 
+
+# take the value at "x"p and assign as a variable. Varaibles are added to their table
 
 
