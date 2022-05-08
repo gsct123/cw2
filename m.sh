@@ -30,5 +30,4 @@ sed -n "28"p text.txt | cut -d ">" -f2 | cut -d "<" -f1 >> text2.txt
 sed -n "29"p text.txt | cut -d ">" -f3 | cut -d "<" -f1 >> text2.txt 
 sed -n "30"p text.txt | cut -d "=" -f4 | cut -d ">" -f1 | sed 's/"//g' >> text2.txt 
 
-
-
+# raw date from text.txt is taken a processed, removing unwanted symbols and punctuation and insert into text2.txt
