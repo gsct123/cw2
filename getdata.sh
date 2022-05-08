@@ -28,5 +28,7 @@ sed -n 4557p day1.txt >> text.txt
 sed -n 4559p day1.txt >> text.txt 
 sed -n 4562p day1.txt >> text.txt 
 sed -n 4570p day1.txt >> text.txt
-sed -n 20301p day1.txt >> text.txt
+sed -n 20301p day1.txt >> text.txt 
+
+#get data (name, population, cases, death, recovered, date) and insert into text.txt accordingly
 
